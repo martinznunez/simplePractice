@@ -38,9 +38,9 @@ export const getStaticPaths = async () => {
   const respose = await getCountryAll();
   const data = respose.data;
 
-  const paths = data.map((city) => {
+  const paths = data.map((country) => {
     return {
-      params: { name: city.name },
+      params: { name: country.name },
     };
   });
 

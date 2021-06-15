@@ -10,7 +10,7 @@ const Button = ({ value, style }) => {
           padding: 10px;
           margin: 10px;
           font-size: 2rem;
-          cursos: pointer;
+          cursor: pointer;
         }
       `}</style>
     </>
